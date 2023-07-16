@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -90,13 +92,12 @@ public class Main {
         arr[2] = 3;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
-                arr[i] ++;
-                System.out.println(arr[i]);
-            } else {
-                System.out.println(arr[i]);
+                arr[i]++;
             }
         }
+        System.out.println(Arrays.toString(arr));
     }
 }
+
 
 
