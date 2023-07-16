@@ -27,11 +27,10 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
                 System.out.println(arr[i]);
-                break;
+            } else {
+                System.out.print(arr[i] + ",");
             }
-            System.out.print(arr[i] + ",");
         }
-
         double[] arr2 = {1.57, 7.654, 9.986};
         for (int i = 0; i < arr2.length; i++) {
             if (i == arr2.length - 1) {
@@ -91,8 +90,8 @@ public class Main {
         arr[2] = 3;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
-                int value = arr[i] + 1;
-                System.out.println(value);
+                arr[i] ++;
+                System.out.println(arr[i]);
             } else {
                 System.out.println(arr[i]);
             }
