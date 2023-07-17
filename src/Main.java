@@ -37,8 +37,7 @@ public class Main {
         for (int i = 0; i < arr2.length; i++) {
             if (i == arr2.length - 1) {
                 System.out.println(arr2[i]);
-                break;
-            }
+            } else
             System.out.print(arr2[i] + ",");
         }
 
@@ -46,8 +45,7 @@ public class Main {
         for (int i = 0; i < arr3.length; i++) {
             if (i == arr3.length - 1) {
                 System.out.println(arr3[i]);
-                break;
-            }
+            } else
             System.out.print(arr3[i] + ",");
         }
     }
@@ -61,8 +59,7 @@ public class Main {
         for (int i = arr.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(arr[i]);
-                break;
-            }
+            } else
             System.out.print(arr[i] + ",");
         }
 
@@ -70,16 +67,14 @@ public class Main {
         for (int i = arr2.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(arr2[i]);
-                break;
-            }
+            } else
             System.out.print(arr2[i] + ",");
         }
         int[] arr3 = {3, 7, 8};
         for (int i = arr3.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(arr3[i]);
-                break;
-            }
+            } else
             System.out.print(arr3[i] + ",");
         }
     }
